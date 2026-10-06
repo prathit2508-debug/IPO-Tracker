@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPO Day 1-3 Tracker</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14171c;--mut:#667085;--bd:#e4e7ec;--ok:#067647;--okb:#ecfdf3;--bad:#b42318;--badb:#fef3f2;--warn:#b54708;--warnb:#fffaeb;--acc:#2f5bea}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a21;--tx:#e8eaee;--mut:#98a2b3;--bd:#262b36;--ok:#6ce9a6;--okb:#0c2a1c;--bad:#fda29b;--badb:#2e1210;--warn:#fec84b;--warnb:#2b2008;--acc:#8ea6ff}}
+*{box-sizing:border-box}body{margin:0;padding:max(16px,env(safe-area-inset-top)) 16px 40px;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:960px;margin:0 auto}h1{font-size:22px;margin:8px 0 2px}h2{font-size:16px;margin:28px 0 10px}
+.sub{color:var(--mut);font-size:13px}.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 14px}
+.banner{border-radius:10px;padding:10px 14px;margin:12px 0;font-size:14px}.stale{background:var(--badb);color:var(--bad)}.warn{background:var(--warnb);color:var(--warn)}
+.alert{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--bd)}.alert:first-child{border-top:0}
+.sym{font-weight:700}.new{background:var(--acc);color:#fff;border-radius:6px;font-size:11px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag{display:inline-block;border-radius:6px;padding:1px 7px;font-size:12px;background:var(--okb);color:var(--ok)}
+.btn{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;padding:6px 12px;cursor:pointer;font:inherit;font-size:13px}
+.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:640px}th,td{text-align:left;padding:9px 10px;border-top:1px solid var(--bd);vertical-align:top;font-size:14px}
+th{color:var(--mut);font-weight:600;font-size:12px;border-top:0}.ok{color:var(--ok)}.bad{color:var(--bad)}.mut{color:var(--mut)}.small{font-size:12px}
+.empty{color:var(--mut);padding:8px 0}
+</style></head><body><main>
+<h1>IPO Day 1-3 Tracker</h1>
+<div class="sub" id="meta"></div>
+<div id="banners"></div>
+<h2>Alerts <button class="btn" id="seen" style="float:right">Mark all as seen</button></h2>
+<div class="card" id="alerts"></div>
+<h2>Tracked Mainboard listings (last 30 days)</h2>
+<div class="card wrap"><table><thead><tr><th>Stock</th><th>Listed</th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="sub">Day 1 green = close above that day's open. Day 2/3 pass = low and close both at or above Day 1's low. Data: NSE listings file + Yahoo Finance daily candles; refreshed after market close on trading days.</p>
+</main>
+<script>
+const DATA={"run":{"at":"2026-10-05T18:58+05:30","ok":true,"note":""},"stocks":{}};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let seen=[];try{seen=JSON.parse(localStorage.getItem("seenAlerts")||"[]")}catch(e){}
+const fmtD=s=>new Date(s+"T00:00:00").toLocaleDateString("en-IN",{day:"2-digit",month:"short"});
+const runAt=new Date(DATA.run.at);
+$("meta").textContent="Last updated: "+runAt.toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short"});
+const ageDays=(Date.now()-runAt)/864e5;
+let b="";
+if(ageDays>3)b+='<div class="banner stale">This page has not refreshed for '+Math.floor(ageDays)+' days. The daily job may have stopped; the data below could be out of date.</div>';
+if(!DATA.run.ok)b+='<div class="banner warn">Last run had a problem: '+esc(DATA.run.note)+'</div>';
+$("banners").innerHTML=b;
+const stocks=Object.entries(DATA.stocks).sort((a,z)=>z[1].listing_date.localeCompare(a[1].listing_date));
+const cutoff=new Date(Date.now()-30*864e5).toISOString().slice(0,10);
+const all=[];stocks.forEach(([s,v])=>v.alerts.forEach(a=>all.push({s,name:v.name,a,id:s+"-d"+a.day})));
+all.sort((x,y)=>y.a.raised_at.localeCompare(x.a.raised_at));
+$("alerts").innerHTML=all.length?all.slice(0,40).map(x=>`<div class="alert"><div><span class="sym">${esc(x.s)}</span>${seen.includes(x.id)?"":'<span class="new">NEW</span>'}
+<div>${esc(x.a.msg)}</div><div class="sub">${esc(x.name)} &middot; Day ${x.a.day} &middot; ${fmtD(x.a.candle_date)}</div></div></div>`).join(""):'<div class="empty">No alerts yet.</div>';
+$("seen").onclick=()=>{try{localStorage.setItem("seenAlerts",JSON.stringify(all.map(x=>x.id)))}catch(e){}location.reload()};
+function cell(v,k){
+  if(!v||!v.days[k])return '<span class="mut">&ndash;</span>';
+  const d=v.days[k];
+  if(k==="1")return (d.result==="green"?'<span class="ok">Green &#10003;</span>':'<span class="bad">Red &#10007;</span>')+`<div class="small mut">O ${d.open} &rarr; C ${d.close}<br>Low ${d.low}</div>`;
+  return (d.result==="held"?'<span class="ok">Held &#10003;</span>':'<span class="bad">Breached &#10007;</span>')+`<div class="small mut">Low ${d.low} &middot; C ${d.close}</div>`;
+}
+const status=v=>v.status==="tracking"?'<span class="mut">Tracking</span>':v.status==="done"?'<span class="ok">Completed</span>':'<span class="bad">Stopped</span><div class="small mut">'+esc(v.reason)+'</div>';
+const rows=stocks.filter(([s,v])=>v.listing_date>=cutoff);
+$("rows").innerHTML=rows.length?rows.map(([s,v])=>`<tr><td><span class="sym">${esc(s)}</span><div class="small mut">${esc(v.name)}</div></td><td>${fmtD(v.listing_date)}</td><td>${cell(v,"1")}</td><td>${cell(v,"2")}</td><td>${cell(v,"3")}</td><td>${status(v)}</td></tr>`).join(""):'<tr><td colspan="6" class="empty">No Mainboard listings found in the last 30 days.</td></tr>';
+const unseen=all.filter(x=>!seen.includes(x.id)).length;if(unseen)document.title="("+unseen+") IPO Day 1-3 Tracker";
+</script></body></html>
