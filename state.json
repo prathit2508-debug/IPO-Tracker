@@ -4,8 +4,23 @@
   "listing_date": "2026-10-05",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 25.8,
+    "low": 25.27,
+    "close": 31.11,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "ADROITIND": {
   "name": "Adroit Industries (India) Limited",
@@ -61,15 +76,38 @@
   "listing_date": "2026-10-01",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 387.95,
+    "low": 379.25,
+    "close": 420.35,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "ARMEE": {
   "name": "ArMee Infotech Limited",
   "listing_date": "2026-09-30",
-  "status": "tracking",
-  "reason": "",
-  "days": {},
+  "status": "stopped",
+  "reason": "Day 1 closed red",
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 273.95,
+    "low": 263.05,
+    "close": 269.95,
+    "result": "red"
+   }
+  },
   "alerts": []
  },
  "CENTEXT-RE": {
@@ -77,24 +115,69 @@
   "listing_date": "2026-09-23",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 2.0,
+    "low": 2.0,
+    "close": 2.16,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "ELEVATE": {
   "name": "Elevate Campuses Limited",
   "listing_date": "2026-09-30",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 337.75,
+    "low": 337.0,
+    "close": 350.0,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "GERMAN": {
   "name": "German Green Steel and Power Limited",
   "listing_date": "2026-10-05",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 118.2,
+    "low": 116.43,
+    "close": 120.11,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "GSPLTRANS": {
   "name": "GSPL Transmission Limited",
@@ -231,8 +314,23 @@
   "listing_date": "2026-10-05",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 400.6,
+    "low": 396.2,
+    "close": 418.4,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "PARIN": {
   "name": "Parin Enterprises Limited",
@@ -269,9 +367,17 @@
  "SHAHINVEST": {
   "name": "Shah Investor's Home Limited",
   "listing_date": "2026-10-06",
-  "status": "tracking",
-  "reason": "",
-  "days": {},
+  "status": "stopped",
+  "reason": "Day 1 closed red",
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 167.05,
+    "low": 165.11,
+    "close": 166.82,
+    "result": "red"
+   }
+  },
   "alerts": []
  },
  "SONA": {
@@ -307,8 +413,8 @@
  "SRIT": {
   "name": "SRIT India Limited",
   "listing_date": "2026-10-06",
-  "status": "tracking",
-  "reason": "",
+  "status": "stopped",
+  "reason": "Day 1 low breached on Day 2",
   "days": {
    "1": {
     "date": "2026-10-06",
@@ -316,6 +422,13 @@
     "low": 148.0,
     "close": 155.09,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-07",
+    "open": 153.0,
+    "low": 147.34,
+    "close": 147.34,
+    "result": "breached"
    }
   },
   "alerts": [
@@ -332,16 +445,46 @@
   "listing_date": "2026-09-23",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 712.75,
+    "low": 710.1,
+    "close": 720.3,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "SWASTIKAIN": {
   "name": "Swastika Infra Limited",
   "listing_date": "2026-09-30",
   "status": "tracking",
   "reason": "",
-  "days": {},
-  "alerts": []
+  "days": {
+   "1": {
+    "date": "2026-10-07",
+    "open": 209.8,
+    "low": 202.0,
+    "close": 210.13,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-07T16:36+05:30"
+   }
+  ]
  },
  "UDAYJEW": {
   "name": "Uday Jewellery Industries Limited",
