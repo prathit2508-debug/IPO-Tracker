@@ -2,7 +2,7 @@
  "ACEVECTOR": {
   "name": "AceVector Limited",
   "listing_date": "2026-10-05",
-  "status": "tracking",
+  "status": "done",
   "reason": "",
   "days": {
    "1": {
@@ -11,6 +11,20 @@
     "low": 25.27,
     "close": 31.11,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-06",
+    "open": 26.75,
+    "low": 25.5,
+    "close": 25.93,
+    "result": "held"
+   },
+   "3": {
+    "date": "2026-10-07",
+    "open": 25.8,
+    "low": 25.27,
+    "close": 31.11,
+    "result": "held"
    }
   },
   "alerts": [
@@ -19,6 +33,18 @@
     "msg": "Stock closed in green on Day 1.",
     "candle_date": "2026-10-07",
     "raised_at": "2026-10-07T16:36+05:30"
+   },
+   {
+    "day": 2,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-06",
+    "raised_at": "2026-10-08T16:36+05:30"
+   },
+   {
+    "day": 3,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-08T16:36+05:30"
    }
   ]
  },
@@ -74,7 +100,7 @@
  "AONESTEELS": {
   "name": "A-One Steels India Limited",
   "listing_date": "2026-10-01",
-  "status": "tracking",
+  "status": "done",
   "reason": "",
   "days": {
    "1": {
@@ -83,6 +109,20 @@
     "low": 379.25,
     "close": 420.35,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-02",
+    "open": 416.55,
+    "low": 416.55,
+    "close": 416.55,
+    "result": "held"
+   },
+   "3": {
+    "date": "2026-10-05",
+    "open": 413.5,
+    "low": 386.1,
+    "close": 389.4,
+    "result": "held"
    }
   },
   "alerts": [
@@ -91,6 +131,18 @@
     "msg": "Stock closed in green on Day 1.",
     "candle_date": "2026-10-07",
     "raised_at": "2026-10-07T16:36+05:30"
+   },
+   {
+    "day": 2,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-02",
+    "raised_at": "2026-10-08T16:36+05:30"
+   },
+   {
+    "day": 3,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-05",
+    "raised_at": "2026-10-08T16:36+05:30"
    }
   ]
  },
@@ -136,8 +188,8 @@
  "ELEVATE": {
   "name": "Elevate Campuses Limited",
   "listing_date": "2026-09-30",
-  "status": "tracking",
-  "reason": "",
+  "status": "stopped",
+  "reason": "Day 1 low breached on Day 2",
   "days": {
    "1": {
     "date": "2026-10-07",
@@ -145,6 +197,13 @@
     "low": 337.0,
     "close": 350.0,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-01",
+    "open": 315.0,
+    "low": 312.25,
+    "close": 344.8,
+    "result": "breached"
    }
   },
   "alerts": [
@@ -159,7 +218,7 @@
  "GERMAN": {
   "name": "German Green Steel and Power Limited",
   "listing_date": "2026-10-05",
-  "status": "tracking",
+  "status": "done",
   "reason": "",
   "days": {
    "1": {
@@ -168,6 +227,20 @@
     "low": 116.43,
     "close": 120.11,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-06",
+    "open": 129.62,
+    "low": 117.4,
+    "close": 118.12,
+    "result": "held"
+   },
+   "3": {
+    "date": "2026-10-07",
+    "open": 118.2,
+    "low": 116.43,
+    "close": 120.11,
+    "result": "held"
    }
   },
   "alerts": [
@@ -176,6 +249,18 @@
     "msg": "Stock closed in green on Day 1.",
     "candle_date": "2026-10-07",
     "raised_at": "2026-10-07T16:36+05:30"
+   },
+   {
+    "day": 2,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-06",
+    "raised_at": "2026-10-08T16:36+05:30"
+   },
+   {
+    "day": 3,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-07",
+    "raised_at": "2026-10-08T16:36+05:30"
    }
   ]
  },
@@ -312,8 +397,8 @@
  "ORIENTCABL": {
   "name": "Orient Cables (India) Limited",
   "listing_date": "2026-10-05",
-  "status": "tracking",
-  "reason": "",
+  "status": "stopped",
+  "reason": "Day 1 low breached on Day 2",
   "days": {
    "1": {
     "date": "2026-10-07",
@@ -321,6 +406,13 @@
     "low": 396.2,
     "close": 418.4,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-06",
+    "open": 380.0,
+    "low": 364.5,
+    "close": 396.4,
+    "result": "breached"
    }
   },
   "alerts": [
@@ -443,8 +535,8 @@
  "SSRETAIL": {
   "name": "SS Retail Limited",
   "listing_date": "2026-09-23",
-  "status": "tracking",
-  "reason": "",
+  "status": "stopped",
+  "reason": "Day 1 low breached on Day 3",
   "days": {
    "1": {
     "date": "2026-10-07",
@@ -452,6 +544,20 @@
     "low": 710.1,
     "close": 720.3,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-09-24",
+    "open": 771.95,
+    "low": 767.55,
+    "close": 811.8,
+    "result": "held"
+   },
+   "3": {
+    "date": "2026-09-25",
+    "open": 816.1,
+    "low": 692.5,
+    "close": 728.2,
+    "result": "breached"
    }
   },
   "alerts": [
@@ -460,14 +566,20 @@
     "msg": "Stock closed in green on Day 1.",
     "candle_date": "2026-10-07",
     "raised_at": "2026-10-07T16:36+05:30"
+   },
+   {
+    "day": 2,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-09-24",
+    "raised_at": "2026-10-08T16:36+05:30"
    }
   ]
  },
  "SWASTIKAIN": {
   "name": "Swastika Infra Limited",
   "listing_date": "2026-09-30",
-  "status": "tracking",
-  "reason": "",
+  "status": "stopped",
+  "reason": "Day 1 low breached on Day 2",
   "days": {
    "1": {
     "date": "2026-10-07",
@@ -475,6 +587,13 @@
     "low": 202.0,
     "close": 210.13,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-01",
+    "open": 202.5,
+    "low": 199.5,
+    "close": 215.53,
+    "result": "breached"
    }
   },
   "alerts": [
@@ -529,6 +648,61 @@
     "open": 45.89,
     "low": 41.35,
     "close": 44.5,
+    "result": "red"
+   }
+  },
+  "alerts": []
+ },
+ "JYOTIRES": {
+  "name": "Jyoti Resins & Adhesives Limited",
+  "listing_date": "2026-10-08",
+  "status": "stopped",
+  "reason": "Day 1 closed red",
+  "days": {
+   "1": {
+    "date": "2026-10-08",
+    "open": 840.15,
+    "low": 830.0,
+    "close": 836.65,
+    "result": "red"
+   }
+  },
+  "alerts": []
+ },
+ "NITYAS": {
+  "name": "Nityas Gems and Jewellery Limited",
+  "listing_date": "2026-10-08",
+  "status": "tracking",
+  "reason": "",
+  "days": {
+   "1": {
+    "date": "2026-10-08",
+    "open": 80.0,
+    "low": 77.0,
+    "close": 83.99,
+    "result": "green"
+   }
+  },
+  "alerts": [
+   {
+    "day": 1,
+    "msg": "Stock closed in green on Day 1.",
+    "candle_date": "2026-10-08",
+    "raised_at": "2026-10-08T16:36+05:30"
+   }
+  ]
+ },
+ "VNL": {
+  "name": "Vishal Nirmiti Limited",
+  "listing_date": "2026-10-08",
+  "status": "stopped",
+  "reason": "Day 1 closed red",
+  "days": {
+   "1": {
+    "date": "2026-10-08",
+    "open": 215.0,
+    "low": 204.25,
+    "close": 204.25,
     "result": "red"
    }
   },
