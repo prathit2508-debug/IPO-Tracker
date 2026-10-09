@@ -681,6 +681,13 @@
     "low": 77.0,
     "close": 83.99,
     "result": "green"
+   },
+   "2": {
+    "date": "2026-10-09",
+    "open": 81.0,
+    "low": 79.8,
+    "close": 79.8,
+    "result": "held"
    }
   },
   "alerts": [
@@ -689,6 +696,12 @@
     "msg": "Stock closed in green on Day 1.",
     "candle_date": "2026-10-08",
     "raised_at": "2026-10-08T16:36+05:30"
+   },
+   {
+    "day": 2,
+    "msg": "Stock did not breach the low of Day 1",
+    "candle_date": "2026-10-09",
+    "raised_at": "2026-10-09T16:35+05:30"
    }
   ]
  },
@@ -706,6 +719,30 @@
     "result": "red"
    }
   },
+  "alerts": []
+ },
+ "AGOL": {
+  "name": "Ashapuri Gold Ornament Limited",
+  "listing_date": "2026-10-12",
+  "status": "tracking",
+  "reason": "",
+  "days": {},
+  "alerts": []
+ },
+ "BELDING": {
+  "name": "Belding India Limited",
+  "listing_date": "2026-10-12",
+  "status": "tracking",
+  "reason": "",
+  "days": {},
+  "alerts": []
+ },
+ "NATCO-RE": {
+  "name": "Natco Pharma Limited-RE",
+  "listing_date": "2026-10-12",
+  "status": "tracking",
+  "reason": "",
+  "days": {},
   "alerts": []
  }
 }
