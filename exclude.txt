@@ -1,0 +1,6 @@
+# Symbols that are NOT Mainboard IPOs (SME upgrades, share entitlements, etc.).
+# One per line. The tracker also filters automatically; this is only a safety net.
+AGOL
+BELDING
+JYOTIRES
+NATCO-RE
