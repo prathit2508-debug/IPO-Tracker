@@ -1,0 +1,30 @@
+{
+ "updated": "2026-10-10T01:34+05:30",
+ "sme_registry": "ok",
+ "excluded": {
+  "AGOL": {
+   "name": "Ashapuri Gold Ornament Limited",
+   "listing_date": "2026-10-12",
+   "isin": "INE05FR01029",
+   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
+  },
+  "BELDING": {
+   "name": "Belding India Limited",
+   "listing_date": "2026-10-12",
+   "isin": "INE363L01045",
+   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
+  },
+  "JYOTIRES": {
+   "name": "Jyoti Resins & Adhesives Limited",
+   "listing_date": "2026-10-08",
+   "isin": "INE577D01013",
+   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
+  },
+  "NATCO-RE": {
+   "name": "Natco Pharma Limited-RE",
+   "listing_date": "2026-10-12",
+   "isin": "INE987B20018",
+   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
+  }
+ }
+}
