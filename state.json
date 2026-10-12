@@ -4,10 +4,18 @@
    "name": "AceVector Limited",
    "listing_date": "2026-10-05",
    "isin": "INE580P01029",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-05",
+     "open": 28.32,
+     "low": 23.37,
+     "close": 26.08,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "ADROITIND": {
    "name": "Adroit Industries (India) Limited",
@@ -44,10 +52,18 @@
    "name": "A-One Steels India Limited",
    "listing_date": "2026-10-01",
    "isin": "INE0OTC01025",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-01",
+     "open": 455.0,
+     "low": 393.7,
+     "close": 416.55,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "ARMEE": {
    "name": "ArMee Infotech Limited",
@@ -70,19 +86,35 @@
    "name": "Elevate Campuses Limited",
    "listing_date": "2026-09-30",
    "isin": "INE147X01013",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-09-30",
+     "open": 355.1,
+     "low": 290.1,
+     "close": 322.95,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "GERMAN": {
    "name": "German Green Steel and Power Limited",
    "listing_date": "2026-10-05",
    "isin": "INE0D4501011",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-05",
+     "open": 142.0,
+     "low": 125.5,
+     "close": 128.33,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "GSPLTRANS": {
    "name": "GSPL Transmission Limited",
@@ -122,19 +154,49 @@
    "name": "Nityas Gems and Jewellery Limited",
    "listing_date": "2026-10-08",
    "isin": "INE211501023",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 low breached on Day 3",
+   "days": {
+    "1": {
+     "date": "2026-10-08",
+     "open": 80.0,
+     "low": 77.0,
+     "close": 83.99,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-10-09",
+     "open": 81.0,
+     "low": 79.8,
+     "close": 79.8,
+     "result": "held"
+    },
+    "3": {
+     "date": "2026-10-12",
+     "open": 76.0,
+     "low": 75.81,
+     "close": 75.81,
+     "result": "breached"
+    }
+   },
+   "pending": false
   },
   "ORIENTCABL": {
    "name": "Orient Cables (India) Limited",
    "listing_date": "2026-10-05",
    "isin": "INE0J1N01028",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-05",
+     "open": 450.0,
+     "low": 405.0,
+     "close": 405.0,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "RUNWALENTR": {
    "name": "Runwal Enterprises Limited",
@@ -205,10 +267,25 @@
    "name": "Swastika Infra Limited",
    "listing_date": "2026-09-30",
    "isin": "INE1QJA01015",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 low breached on Day 2",
+   "days": {
+    "1": {
+     "date": "2026-09-30",
+     "open": 200.0,
+     "low": 200.0,
+     "close": 210.0,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-10-01",
+     "open": 202.5,
+     "low": 199.5,
+     "close": 215.53,
+     "result": "breached"
+    }
+   },
+   "pending": false
   },
   "VARMORA": {
    "name": "Varmora Granito Limited",
@@ -231,6 +308,23 @@
    "name": "Vishal Nirmiti Limited",
    "listing_date": "2026-10-08",
    "isin": "INE1O5L01025",
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-08",
+     "open": 215.0,
+     "low": 204.25,
+     "close": 204.25,
+     "result": "red"
+    }
+   },
+   "pending": false
+  },
+  "TRIVENIPT": {
+   "name": "Triveni Power Transmission Limited",
+   "listing_date": "2026-10-12",
+   "isin": "INE2WKE01011",
    "status": "tracking",
    "reason": "",
    "days": {},
@@ -819,7 +913,9 @@
    "PERFECT",
    "AHIMSA",
    "SHAIVAL",
-   "EMKAYTOOLS"
+   "EMKAYTOOLS",
+   "RKFAL",
+   "SECL"
   ],
   "isins": []
  }
