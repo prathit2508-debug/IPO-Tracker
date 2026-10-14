@@ -325,14 +325,28 @@
    "name": "Triveni Power Transmission Limited",
    "listing_date": "2026-10-12",
    "isin": "INE2WKE01011",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-12",
+     "open": 720.0,
+     "low": 684.0,
+     "close": 684.0,
+     "result": "red"
+    }
+   },
+   "pending": false
   }
  },
  "notifications": [],
- "excluded": {},
+ "excluded": {
+  "LANCER": {
+   "name": "Lancer Container Lines Limited",
+   "listing_date": "2026-10-14",
+   "reason": "Traded before its listing date (SME upgrade / relisting)"
+  }
+ },
  "sme_seen": {
   "symbols": [
    "EVENTIONS",

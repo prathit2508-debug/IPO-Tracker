@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:20+05:30",
+ "updated": "2026-10-14T17:01+05:30",
  "sme_registry": "ok",
  "excluded": {
   "AGOL": {
@@ -25,6 +25,11 @@
    "listing_date": "2026-10-12",
    "isin": "INE987B20018",
    "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
+  },
+  "LANCER": {
+   "name": "Lancer Container Lines Limited",
+   "listing_date": "2026-10-14",
+   "reason": "Traded before its listing date (SME upgrade / relisting)"
   }
  }
 }
