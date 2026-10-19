@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T20:31+05:30",
+ "updated": "2026-10-19T17:02+05:30",
  "sme_registry": "ok",
  "excluded": {
   "AGOL": {
@@ -18,12 +18,6 @@
    "name": "Jyoti Resins & Adhesives Limited",
    "listing_date": "2026-10-08",
    "isin": "INE577D01013",
-   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
-  },
-  "NATCO-RE": {
-   "name": "Natco Pharma Limited-RE",
-   "listing_date": "2026-10-12",
-   "isin": "INE987B20018",
    "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
   },
   "LANCER": {
