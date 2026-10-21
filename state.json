@@ -337,6 +337,15 @@
     }
    },
    "pending": false
+  },
+  "HDFIRE": {
+   "name": "HD Fire Protect Limited",
+   "listing_date": "2026-10-21",
+   "isin": "INE18AK01028",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
   }
  },
  "notifications": [],
@@ -929,7 +938,8 @@
    "SHAIVAL",
    "EMKAYTOOLS",
    "RKFAL",
-   "SECL"
+   "SECL",
+   "LOANFRONT"
   ],
   "isins": []
  }
