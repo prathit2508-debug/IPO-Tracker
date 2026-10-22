@@ -342,6 +342,32 @@
    "name": "HD Fire Protect Limited",
    "listing_date": "2026-10-21",
    "isin": "INE18AK01028",
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-21",
+     "open": 335.0,
+     "low": 301.5,
+     "close": 306.75,
+     "result": "red"
+    }
+   },
+   "pending": false
+  },
+  "FUSIONCX": {
+   "name": "Fusion CX Limited",
+   "listing_date": "2026-10-22",
+   "isin": "INE0N2201019",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "IIRM": {
+   "name": "IIRM Holdings India Limited",
+   "listing_date": "2026-10-22",
+   "isin": "INE670C01026",
    "status": "tracking",
    "reason": "",
    "days": {},
@@ -939,7 +965,8 @@
    "EMKAYTOOLS",
    "RKFAL",
    "SECL",
-   "LOANFRONT"
+   "LOANFRONT",
+   "RAVITA"
   ],
   "isins": []
  }
