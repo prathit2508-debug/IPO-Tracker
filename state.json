@@ -368,10 +368,18 @@
    "name": "IIRM Holdings India Limited",
    "listing_date": "2026-10-22",
    "isin": "INE670C01026",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-22",
+     "open": 134.9,
+     "low": 108.21,
+     "close": 113.08,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "BONFIG": {
    "name": "Bonfiglioli Transmissions Limited",
