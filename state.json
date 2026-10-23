@@ -372,6 +372,42 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "BONFIG": {
+   "name": "Bonfiglioli Transmissions Limited",
+   "listing_date": "2026-10-23",
+   "isin": "INE28SO01013",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "SMT": {
+   "name": "Sahajanand Medical Technologies Limited",
+   "listing_date": "2026-10-23",
+   "isin": "INE356Y01018",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "TONBO": {
+   "name": "Tonbo Imaging India Limited",
+   "listing_date": "2026-10-23",
+   "isin": "INE0LDG01026",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "ZETWERK": {
+   "name": "Zetwerk Manufacturing Businesses Limited",
+   "listing_date": "2026-10-23",
+   "isin": "INE09PO01019",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
   }
  },
  "notifications": [],
