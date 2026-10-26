@@ -359,10 +359,18 @@
    "name": "Fusion CX Limited",
    "listing_date": "2026-10-22",
    "isin": "INE0N2201019",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-22",
+     "open": 305.0,
+     "low": 284.35,
+     "close": 289.65,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "IIRM": {
    "name": "IIRM Holdings India Limited",
@@ -385,10 +393,18 @@
    "name": "Bonfiglioli Transmissions Limited",
    "listing_date": "2026-10-23",
    "isin": "INE28SO01013",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-23",
+     "open": 586.0,
+     "low": 527.4,
+     "close": 574.5,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "SMT": {
    "name": "Sahajanand Medical Technologies Limited",
@@ -396,26 +412,57 @@
    "isin": "INE356Y01018",
    "status": "tracking",
    "reason": "",
-   "days": {},
-   "pending": true
+   "days": {
+    "1": {
+     "date": "2026-10-23",
+     "open": 371.15,
+     "low": 346.65,
+     "close": 377.65,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-10-26",
+     "open": 384.0,
+     "low": 381.45,
+     "close": 410.6,
+     "result": "held"
+    }
+   },
+   "pending": false
   },
   "TONBO": {
    "name": "Tonbo Imaging India Limited",
    "listing_date": "2026-10-23",
    "isin": "INE0LDG01026",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-23",
+     "open": 1160.0,
+     "low": 1013.7,
+     "close": 1133.8,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "ZETWERK": {
    "name": "Zetwerk Manufacturing Businesses Limited",
    "listing_date": "2026-10-23",
    "isin": "INE09PO01019",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-23",
+     "open": 159.25,
+     "low": 127.4,
+     "close": 138.25,
+     "result": "red"
+    }
+   },
+   "pending": false
   }
  },
  "notifications": [],

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T20:36+05:30",
+ "updated": "2026-10-26T17:10+05:30",
  "sme_registry": "ok",
  "excluded": {
   "AGOL": {
@@ -14,11 +14,23 @@
    "isin": "INE363L01045",
    "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
   },
+  "KHAZANCHI": {
+   "name": "Khazanchi Jewellers Limited",
+   "listing_date": "2026-10-27",
+   "isin": "INE0OWC01011",
+   "reason": "Listing date is in the future"
+  },
   "OLAELEC-RE": {
    "name": "Ola Electric Mobility Ltd-RE",
    "listing_date": "2026-10-22",
    "isin": "INE0LXG20016",
    "reason": "Rights entitlement / partly-paid security"
+  },
+  "SUDARSHAN": {
+   "name": "Sudarshan Pharma Industries Limited",
+   "listing_date": "2026-10-27",
+   "isin": "INE00TV01023",
+   "reason": "Listing date is in the future"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
