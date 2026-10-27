@@ -1,35 +1,11 @@
 {
- "updated": "2026-10-26T21:20+05:30",
+ "updated": "2026-10-27T17:04+05:30",
  "sme_registry": "ok",
  "excluded": {
-  "AGOL": {
-   "name": "Ashapuri Gold Ornament Limited",
-   "listing_date": "2026-10-12",
-   "isin": "INE05FR01029",
-   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
-  },
-  "BELDING": {
-   "name": "Belding India Limited",
-   "listing_date": "2026-10-12",
-   "isin": "INE363L01045",
-   "reason": "On exclusion list (SME upgrade / not a Mainboard IPO)"
-  },
-  "KHAZANCHI": {
-   "name": "Khazanchi Jewellers Limited",
-   "listing_date": "2026-10-27",
-   "isin": "INE0OWC01011",
-   "reason": "Listing date is in the future"
-  },
-  "OLAELEC-RE": {
-   "name": "Ola Electric Mobility Ltd-RE",
-   "listing_date": "2026-10-22",
-   "isin": "INE0LXG20016",
-   "reason": "Rights entitlement / partly-paid security"
-  },
-  "SUDARSHAN": {
-   "name": "Sudarshan Pharma Industries Limited",
-   "listing_date": "2026-10-27",
-   "isin": "INE00TV01023",
+  "SHIVAM-RE1": {
+   "name": "Shivam Autotech Ltd-RE",
+   "listing_date": "2026-10-28",
+   "isin": "INE637H20024",
    "reason": "Listing date is in the future"
   },
   "LANCER": {

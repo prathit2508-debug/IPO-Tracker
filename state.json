@@ -428,7 +428,7 @@
      "result": "held"
     }
    },
-   "pending": false
+   "pending": true
   },
   "TONBO": {
    "name": "Tonbo Imaging India Limited",
@@ -463,6 +463,24 @@
     }
    },
    "pending": false
+  },
+  "KHAZANCHI": {
+   "name": "Khazanchi Jewellers Limited",
+   "listing_date": "2026-10-27",
+   "isin": "INE0OWC01011",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "SUDARSHAN": {
+   "name": "Sudarshan Pharma Industries Limited",
+   "listing_date": "2026-10-27",
+   "isin": "INE00TV01023",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
   }
  },
  "notifications": [],
