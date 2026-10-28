@@ -1,12 +1,18 @@
 {
- "updated": "2026-10-27T20:45+05:30",
+ "updated": "2026-10-28T17:10+05:30",
  "sme_registry": "ok",
  "excluded": {
+  "BONDADA": {
+   "name": "Bondada Engineering Limited",
+   "listing_date": "2026-10-29",
+   "isin": "INE0Q8P01029",
+   "reason": "Listing date is in the future"
+  },
   "SHIVAM-RE1": {
    "name": "Shivam Autotech Ltd-RE",
    "listing_date": "2026-10-28",
    "isin": "INE637H20024",
-   "reason": "Listing date is in the future"
+   "reason": "Rights entitlement / partly-paid security"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",

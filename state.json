@@ -410,7 +410,7 @@
    "name": "Sahajanand Medical Technologies Limited",
    "listing_date": "2026-10-23",
    "isin": "INE356Y01018",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -426,9 +426,16 @@
      "low": 381.45,
      "close": 410.6,
      "result": "held"
+    },
+    "3": {
+     "date": "2026-10-27",
+     "open": 413.0,
+     "low": 403.85,
+     "close": 492.7,
+     "result": "held"
     }
    },
-   "pending": true
+   "pending": false
   },
   "TONBO": {
    "name": "Tonbo Imaging India Limited",
@@ -481,9 +488,45 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "JPL": {
+   "name": "Jio Platforms Limited",
+   "listing_date": "2026-10-28",
+   "isin": "INE0BJO01010",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "PARASHLTH": {
+   "name": "Paras Healthcare Limited",
+   "listing_date": "2026-10-28",
+   "isin": "INE661T01029",
+   "status": "tracking",
+   "reason": "",
+   "days": {
+    "1": {
+     "date": "2026-10-28",
+     "open": 720.0,
+     "low": 706.0,
+     "close": 735.6,
+     "result": "green"
+    }
+   },
+   "pending": false
   }
  },
- "notifications": [],
+ "notifications": [
+  {
+   "id": "SMT-2026-10-23",
+   "symbol": "SMT",
+   "name": "Sahajanand Medical Technologies Limited",
+   "listing_date": "2026-10-23",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-10-27",
+   "raised_at": "2026-10-28T17:10+05:30"
+  }
+ ],
  "excluded": {
   "LANCER": {
    "name": "Lancer Container Lines Limited",
