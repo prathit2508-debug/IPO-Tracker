@@ -477,8 +477,23 @@
    "isin": "INE0OWC01011",
    "status": "tracking",
    "reason": "",
-   "days": {},
-   "pending": true
+   "days": {
+    "1": {
+     "date": "2026-10-27",
+     "open": 709.8,
+     "low": 709.8,
+     "close": 728.5,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-10-28",
+     "open": 732.8,
+     "low": 723.0,
+     "close": 729.6,
+     "result": "held"
+    }
+   },
+   "pending": false
   },
   "SUDARSHAN": {
    "name": "Sudarshan Pharma Industries Limited",
