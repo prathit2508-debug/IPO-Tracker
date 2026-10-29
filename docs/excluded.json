@@ -1,11 +1,17 @@
 {
- "updated": "2026-10-28T20:50+05:30",
+ "updated": "2026-10-29T17:10+05:30",
  "sme_registry": "ok",
  "excluded": {
-  "BONDADA": {
-   "name": "Bondada Engineering Limited",
-   "listing_date": "2026-10-29",
-   "isin": "INE0Q8P01029",
+  "ARHAM": {
+   "name": "Arham Technologies Limited",
+   "listing_date": "2026-10-30",
+   "isin": "INE0L2Y01011",
+   "reason": "Listing date is in the future"
+  },
+  "INDTONER": {
+   "name": "Indian Toners & Developers Limited",
+   "listing_date": "2026-10-30",
+   "isin": "INE826B01026",
    "reason": "Listing date is in the future"
   },
   "SHIVAM-RE1": {

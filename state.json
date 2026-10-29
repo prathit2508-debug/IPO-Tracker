@@ -475,7 +475,7 @@
    "name": "Khazanchi Jewellers Limited",
    "listing_date": "2026-10-27",
    "isin": "INE0OWC01011",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -490,6 +490,13 @@
      "open": 732.8,
      "low": 723.0,
      "close": 729.6,
+     "result": "held"
+    },
+    "3": {
+     "date": "2026-10-29",
+     "open": 733.8,
+     "low": 711.0,
+     "close": 715.65,
      "result": "held"
     }
    },
@@ -510,8 +517,23 @@
    "isin": "INE0BJO01010",
    "status": "tracking",
    "reason": "",
-   "days": {},
-   "pending": true
+   "days": {
+    "1": {
+     "date": "2026-10-28",
+     "open": 1358.0,
+     "low": 1357.0,
+     "close": 1417.5,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-10-29",
+     "open": 1445.9,
+     "low": 1381.0,
+     "close": 1421.6,
+     "result": "held"
+    }
+   },
+   "pending": false
   },
   "PARASHLTH": {
    "name": "Paras Healthcare Limited",
@@ -526,9 +548,25 @@
      "low": 706.0,
      "close": 735.6,
      "result": "green"
+    },
+    "2": {
+     "date": "2026-10-29",
+     "open": 721.0,
+     "low": 720.1,
+     "close": 775.15,
+     "result": "held"
     }
    },
    "pending": false
+  },
+  "BONDADA": {
+   "name": "Bondada Engineering Limited",
+   "listing_date": "2026-10-29",
+   "isin": "INE0Q8P01029",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
   }
  },
  "notifications": [
@@ -540,6 +578,15 @@
    "msg": "Stock did not breach the low of opening day in last 3 days.",
    "candle_date": "2026-10-27",
    "raised_at": "2026-10-28T17:10+05:30"
+  },
+  {
+   "id": "KHAZANCHI-2026-10-27",
+   "symbol": "KHAZANCHI",
+   "name": "Khazanchi Jewellers Limited",
+   "listing_date": "2026-10-27",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-10-29",
+   "raised_at": "2026-10-29T17:10+05:30"
   }
  ],
  "excluded": {
