@@ -1,18 +1,12 @@
 {
- "updated": "2026-10-29T20:50+05:30",
+ "updated": "2026-10-30T17:06+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ARHAM": {
    "name": "Arham Technologies Limited",
    "listing_date": "2026-10-30",
    "isin": "INE0L2Y01011",
-   "reason": "Listing date is in the future"
-  },
-  "INDTONER": {
-   "name": "Indian Toners & Developers Limited",
-   "listing_date": "2026-10-30",
-   "isin": "INE826B01026",
-   "reason": "Listing date is in the future"
+   "reason": "Was listed on the SME board earlier (SME upgrade)"
   },
   "SHIVAM-RE1": {
    "name": "Shivam Autotech Ltd-RE",
