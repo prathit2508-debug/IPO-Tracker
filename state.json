@@ -515,7 +515,7 @@
    "name": "Jio Platforms Limited",
    "listing_date": "2026-10-28",
    "isin": "INE0BJO01010",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -531,9 +531,16 @@
      "low": 1381.0,
      "close": 1421.6,
      "result": "held"
+    },
+    "3": {
+     "date": "2026-10-30",
+     "open": 1410.1,
+     "low": 1386.8,
+     "close": 1431.3,
+     "result": "held"
     }
    },
-   "pending": true
+   "pending": false
   },
   "PARASHLTH": {
    "name": "Paras Healthcare Limited",
@@ -604,6 +611,15 @@
    "msg": "Stock did not breach the low of opening day in last 3 days.",
    "candle_date": "2026-10-29",
    "raised_at": "2026-10-29T17:10+05:30"
+  },
+  {
+   "id": "JPL-2026-10-28",
+   "symbol": "JPL",
+   "name": "Jio Platforms Limited",
+   "listing_date": "2026-10-28",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-10-30",
+   "raised_at": "2026-10-30T20:50+05:30"
   }
  ],
  "excluded": {
