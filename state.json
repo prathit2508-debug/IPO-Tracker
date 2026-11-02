@@ -587,6 +587,23 @@
    "name": "Indian Toners & Developers Limited",
    "listing_date": "2026-10-30",
    "isin": "INE826B01026",
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-10-30",
+     "open": 47.91,
+     "low": 44.1,
+     "close": 45.27,
+     "result": "red"
+    }
+   },
+   "pending": false
+  },
+  "EDELALTS": {
+   "name": "EAAA India Alternatives Limited",
+   "listing_date": "2026-11-02",
+   "isin": "INE528L01027",
    "status": "tracking",
    "reason": "",
    "days": {},
