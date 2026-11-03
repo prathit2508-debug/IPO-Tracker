@@ -608,6 +608,24 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "BLSPOLY": {
+   "name": "BLS Polymers Limited",
+   "listing_date": "2026-11-03",
+   "isin": "INE0ZCQ01019",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "SFCTECH": {
+   "name": "SFC Environmental Technologies Limited",
+   "listing_date": "2026-11-03",
+   "isin": "INE0PKN01028",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
   }
  },
  "notifications": [
