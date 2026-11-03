@@ -606,8 +606,23 @@
    "isin": "INE528L01027",
    "status": "tracking",
    "reason": "",
-   "days": {},
-   "pending": true
+   "days": {
+    "1": {
+     "date": "2026-11-02",
+     "open": 1675.5,
+     "low": 1601.0,
+     "close": 1727.8,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-11-03",
+     "open": 1737.8,
+     "low": 1686.4,
+     "close": 1722.3,
+     "result": "held"
+    }
+   },
+   "pending": false
   },
   "BLSPOLY": {
    "name": "BLS Polymers Limited",
