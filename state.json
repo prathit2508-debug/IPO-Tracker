@@ -604,7 +604,7 @@
    "name": "EAAA India Alternatives Limited",
    "listing_date": "2026-11-02",
    "isin": "INE528L01027",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -620,6 +620,13 @@
      "low": 1686.4,
      "close": 1722.3,
      "result": "held"
+    },
+    "3": {
+     "date": "2026-11-04",
+     "open": 1706.0,
+     "low": 1677.9,
+     "close": 1689.9,
+     "result": "held"
     }
    },
    "pending": false
@@ -630,13 +637,70 @@
    "isin": "INE0ZCQ01019",
    "status": "tracking",
    "reason": "",
-   "days": {},
-   "pending": true
+   "days": {
+    "1": {
+     "date": "2026-11-03",
+     "open": 248.0,
+     "low": 225.0,
+     "close": 268.8,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-11-04",
+     "open": 279.0,
+     "low": 245.3,
+     "close": 255.94,
+     "result": "held"
+    }
+   },
+   "pending": false
   },
   "SFCTECH": {
    "name": "SFC Environmental Technologies Limited",
    "listing_date": "2026-11-03",
    "isin": "INE0PKN01028",
+   "status": "tracking",
+   "reason": "",
+   "days": {
+    "1": {
+     "date": "2026-11-03",
+     "open": 355.1,
+     "low": 355.1,
+     "close": 426.1,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-11-04",
+     "open": 448.8,
+     "low": 397.35,
+     "close": 406.75,
+     "result": "held"
+    }
+   },
+   "pending": false
+  },
+  "ENNATURE": {
+   "name": "Ennature Bio Pharma Limited",
+   "listing_date": "2026-11-04",
+   "isin": "INE2WCT01016",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "IGLSPIRITS": {
+   "name": "IGL Spirits Limited",
+   "listing_date": "2026-11-04",
+   "isin": "INE2W6901017",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": true
+  },
+  "MKJEWELS": {
+   "name": "M. K. Sons Fine Jewels Limited",
+   "listing_date": "2026-11-04",
+   "isin": "INE2IXO01012",
    "status": "tracking",
    "reason": "",
    "days": {},
@@ -670,6 +734,15 @@
    "msg": "Stock did not breach the low of opening day in last 3 days.",
    "candle_date": "2026-10-30",
    "raised_at": "2026-10-30T20:50+05:30"
+  },
+  {
+   "id": "EDELALTS-2026-11-02",
+   "symbol": "EDELALTS",
+   "name": "EAAA India Alternatives Limited",
+   "listing_date": "2026-11-02",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-11-04",
+   "raised_at": "2026-11-04T17:24+05:30"
   }
  ],
  "excluded": {
@@ -1263,7 +1336,8 @@
    "RKFAL",
    "SECL",
    "LOANFRONT",
-   "RAVITA"
+   "RAVITA",
+   "URBAN-RE"
   ],
   "isins": []
  }
