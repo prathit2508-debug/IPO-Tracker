@@ -635,7 +635,7 @@
    "name": "BLS Polymers Limited",
    "listing_date": "2026-11-03",
    "isin": "INE0ZCQ01019",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -651,6 +651,13 @@
      "low": 245.3,
      "close": 255.94,
      "result": "held"
+    },
+    "3": {
+     "date": "2026-11-05",
+     "open": 253.7,
+     "low": 245.0,
+     "close": 250.2,
+     "result": "held"
     }
    },
    "pending": false
@@ -659,7 +666,7 @@
    "name": "SFC Environmental Technologies Limited",
    "listing_date": "2026-11-03",
    "isin": "INE0PKN01028",
-   "status": "tracking",
+   "status": "done",
    "reason": "",
    "days": {
     "1": {
@@ -675,6 +682,13 @@
      "low": 397.35,
      "close": 406.75,
      "result": "held"
+    },
+    "3": {
+     "date": "2026-11-05",
+     "open": 412.0,
+     "low": 406.85,
+     "close": 411.95,
+     "result": "held"
     }
    },
    "pending": false
@@ -683,24 +697,64 @@
    "name": "Ennature Bio Pharma Limited",
    "listing_date": "2026-11-04",
    "isin": "INE2WCT01016",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-11-04",
+     "open": 264.9,
+     "low": 251.7,
+     "close": 251.7,
+     "result": "red"
+    }
+   },
+   "pending": false
   },
   "IGLSPIRITS": {
    "name": "IGL Spirits Limited",
    "listing_date": "2026-11-04",
    "isin": "INE2W6901017",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 low breached on Day 2",
+   "days": {
+    "1": {
+     "date": "2026-11-04",
+     "open": 878.0,
+     "low": 878.0,
+     "close": 921.27,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-11-05",
+     "open": 967.33,
+     "low": 875.21,
+     "close": 890.14,
+     "result": "breached"
+    }
+   },
+   "pending": false
   },
   "MKJEWELS": {
    "name": "M. K. Sons Fine Jewels Limited",
    "listing_date": "2026-11-04",
    "isin": "INE2IXO01012",
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-11-04",
+     "open": 171.0,
+     "low": 162.0,
+     "close": 162.2,
+     "result": "red"
+    }
+   },
+   "pending": false
+  },
+  "BCSSL": {
+   "name": "Bombay Coated and Special Steels Limited",
+   "listing_date": "2026-11-05",
+   "isin": "INE0XFY01011",
    "status": "tracking",
    "reason": "",
    "days": {},
@@ -743,6 +797,24 @@
    "msg": "Stock did not breach the low of opening day in last 3 days.",
    "candle_date": "2026-11-04",
    "raised_at": "2026-11-04T17:24+05:30"
+  },
+  {
+   "id": "BLSPOLY-2026-11-03",
+   "symbol": "BLSPOLY",
+   "name": "BLS Polymers Limited",
+   "listing_date": "2026-11-03",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-11-05",
+   "raised_at": "2026-11-05T17:24+05:30"
+  },
+  {
+   "id": "SFCTECH-2026-11-03",
+   "symbol": "SFCTECH",
+   "name": "SFC Environmental Technologies Limited",
+   "listing_date": "2026-11-03",
+   "msg": "Stock did not breach the low of opening day in last 3 days.",
+   "candle_date": "2026-11-05",
+   "raised_at": "2026-11-05T17:24+05:30"
   }
  ],
  "excluded": {

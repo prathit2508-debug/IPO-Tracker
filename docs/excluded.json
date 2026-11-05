@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:48+05:30",
+ "updated": "2026-11-05T17:23+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ARHAM": {
@@ -7,6 +7,18 @@
    "listing_date": "2026-10-30",
    "isin": "INE0L2Y01011",
    "reason": "Was listed on the SME board earlier (SME upgrade)"
+  },
+  "BAHETI": {
+   "name": "Baheti Recycling Industries Limited",
+   "listing_date": "2026-11-06",
+   "isin": "INE029Q01017",
+   "reason": "Listing date is in the future"
+  },
+  "BRIGHTOUTD": {
+   "name": "Bright Outdoor Media Limited",
+   "listing_date": "2026-11-06",
+   "isin": "INE0OMI01019",
+   "reason": "Listing date is in the future"
   },
   "SHIVAM-RE1": {
    "name": "Shivam Autotech Ltd-RE",
