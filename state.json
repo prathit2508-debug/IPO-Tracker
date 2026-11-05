@@ -759,6 +759,15 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "BRIGHTOUTD": {
+   "name": "Bright Outdoor Media Limited",
+   "listing_date": "2026-11-06",
+   "isin": "INE0OMI01019",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [
