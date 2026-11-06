@@ -755,10 +755,25 @@
    "name": "Bombay Coated and Special Steels Limited",
    "listing_date": "2026-11-05",
    "isin": "INE0XFY01011",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 low breached on Day 2",
+   "days": {
+    "1": {
+     "date": "2026-11-05",
+     "open": 91.0,
+     "low": 91.0,
+     "close": 94.81,
+     "result": "green"
+    },
+    "2": {
+     "date": "2026-11-06",
+     "open": 90.07,
+     "low": 90.07,
+     "close": 90.07,
+     "result": "breached"
+    }
+   },
+   "pending": false
   },
   "BRIGHTOUTD": {
    "name": "Bright Outdoor Media Limited",
@@ -767,7 +782,7 @@
    "status": "tracking",
    "reason": "",
    "days": {},
-   "pending": false
+   "pending": true
   }
  },
  "notifications": [
@@ -1418,7 +1433,9 @@
    "SECL",
    "LOANFRONT",
    "RAVITA",
-   "URBAN-RE"
+   "URBAN-RE",
+   "MAXENGS",
+   "HGSINDIALT"
   ],
   "isins": []
  }
