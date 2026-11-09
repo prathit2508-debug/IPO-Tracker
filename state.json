@@ -779,10 +779,18 @@
    "name": "Bright Outdoor Media Limited",
    "listing_date": "2026-11-06",
    "isin": "INE0OMI01019",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-11-06",
+     "open": 387.5,
+     "low": 345.8,
+     "close": 355.7,
+     "result": "red"
+    }
+   },
+   "pending": false
   }
  },
  "notifications": [
@@ -1435,7 +1443,8 @@
    "RAVITA",
    "URBAN-RE",
    "MAXENGS",
-   "HGSINDIALT"
+   "HGSINDIALT",
+   "VPFL"
   ],
   "isins": []
  }
