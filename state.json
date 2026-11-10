@@ -791,6 +791,15 @@
     }
    },
    "pending": false
+  },
+  "VEEFIN": {
+   "name": "Veefin Solutions Limited",
+   "listing_date": "2026-11-11",
+   "isin": "INE0Q0M01015",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [
