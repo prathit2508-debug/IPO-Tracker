@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T02:27+05:30",
+ "updated": "2026-11-12T00:04+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ARHAM": {
@@ -13,12 +13,6 @@
    "listing_date": "2026-11-06",
    "isin": "INE029Q01017",
    "reason": "Was listed on the SME board earlier (SME upgrade)"
-  },
-  "SHIVAM-RE1": {
-   "name": "Shivam Autotech Ltd-RE",
-   "listing_date": "2026-10-28",
-   "isin": "INE637H20024",
-   "reason": "Rights entitlement / partly-paid security"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
