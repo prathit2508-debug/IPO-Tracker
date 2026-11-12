@@ -796,10 +796,18 @@
    "name": "Veefin Solutions Limited",
    "listing_date": "2026-11-11",
    "isin": "INE0Q0M01015",
-   "status": "tracking",
-   "reason": "",
-   "days": {},
-   "pending": true
+   "status": "stopped",
+   "reason": "Day 1 closed red",
+   "days": {
+    "1": {
+     "date": "2026-11-11",
+     "open": 250.84,
+     "low": 231.05,
+     "close": 247.58,
+     "result": "red"
+    }
+   },
+   "pending": false
   }
  },
  "notifications": [
