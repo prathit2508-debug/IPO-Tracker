@@ -17,88 +17,6 @@
    },
    "pending": false
   },
-  "ADROITIND": {
-   "name": "Adroit Industries (India) Limited",
-   "listing_date": "2026-09-30",
-   "isin": "INE505M01015",
-   "status": "stopped",
-   "reason": "Day 1 low breached on Day 3",
-   "days": {
-    "1": {
-     "date": "2026-09-30",
-     "open": 235.0,
-     "low": 235.0,
-     "close": 248.39,
-     "result": "green"
-    },
-    "2": {
-     "date": "2026-10-01",
-     "open": 248.39,
-     "low": 235.98,
-     "close": 235.98,
-     "result": "held"
-    },
-    "3": {
-     "date": "2026-10-05",
-     "open": 224.19,
-     "low": 224.19,
-     "close": 224.19,
-     "result": "breached"
-    }
-   },
-   "pending": false
-  },
-  "AONESTEELS": {
-   "name": "A-One Steels India Limited",
-   "listing_date": "2026-10-01",
-   "isin": "INE0OTC01025",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-01",
-     "open": 455.0,
-     "low": 393.7,
-     "close": 416.55,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "ARMEE": {
-   "name": "ArMee Infotech Limited",
-   "listing_date": "2026-09-30",
-   "isin": "INE0TWE01016",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-09-30",
-     "open": 375.0,
-     "low": 300.0,
-     "close": 300.0,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "ELEVATE": {
-   "name": "Elevate Campuses Limited",
-   "listing_date": "2026-09-30",
-   "isin": "INE147X01013",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-09-30",
-     "open": 355.1,
-     "low": 290.1,
-     "close": 322.95,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
   "GERMAN": {
    "name": "German Green Steel and Power Limited",
    "listing_date": "2026-10-05",
@@ -111,40 +29,6 @@
      "open": 142.0,
      "low": 125.5,
      "close": 128.33,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "GSPLTRANS": {
-   "name": "GSPL Transmission Limited",
-   "listing_date": "2026-09-30",
-   "isin": "INE1TUG01013",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-09-30",
-     "open": 152.0,
-     "low": 144.4,
-     "close": 144.4,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "MONEYVIEW": {
-   "name": "Moneyview Limited",
-   "listing_date": "2026-10-01",
-   "isin": "INE0PTN01011",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-01",
-     "open": 55.0,
-     "low": 50.27,
-     "close": 53.88,
      "result": "red"
     }
    },
@@ -258,30 +142,6 @@
      "open": 153.0,
      "low": 147.34,
      "close": 147.34,
-     "result": "breached"
-    }
-   },
-   "pending": false
-  },
-  "SWASTIKAIN": {
-   "name": "Swastika Infra Limited",
-   "listing_date": "2026-09-30",
-   "isin": "INE1QJA01015",
-   "status": "stopped",
-   "reason": "Day 1 low breached on Day 2",
-   "days": {
-    "1": {
-     "date": "2026-09-30",
-     "open": 200.0,
-     "low": 200.0,
-     "close": 210.0,
-     "result": "green"
-    },
-    "2": {
-     "date": "2026-10-01",
-     "open": 202.5,
-     "low": 199.5,
-     "close": 215.53,
      "result": "breached"
     }
    },
@@ -1444,7 +1304,8 @@
    "URBAN-RE",
    "MAXENGS",
    "HGSINDIALT",
-   "VPFL"
+   "VPFL",
+   "IEML-RE1"
   ],
   "isins": []
  }
