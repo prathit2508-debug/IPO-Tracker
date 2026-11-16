@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:25+05:30",
+ "updated": "2026-11-17T04:58+05:30",
  "sme_registry": "ok",
  "excluded": {
   "BAHETI": {
@@ -13,12 +13,6 @@
    "listing_date": "2026-11-13",
    "isin": "INE0ITO01014",
    "reason": "Was listed on the SME board earlier (SME upgrade)"
-  },
-  "SUVID-RE": {
-   "name": "Suvidhaa Infoserve Limited-RE",
-   "listing_date": "2026-11-13",
-   "isin": "INE018420013",
-   "reason": "Rights entitlement / partly-paid security"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
