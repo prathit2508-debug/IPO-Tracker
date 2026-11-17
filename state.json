@@ -651,6 +651,15 @@
     }
    },
    "pending": false
+  },
+  "JKSHAH": {
+   "name": "J.K.Shah Commerce Education Limited",
+   "listing_date": "2026-11-18",
+   "isin": "INE2OD001016",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [
