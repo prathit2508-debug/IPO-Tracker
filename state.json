@@ -658,7 +658,15 @@
    "isin": "INE2OD001016",
    "status": "tracking",
    "reason": "",
-   "days": {},
+   "days": {
+    "1": {
+     "date": "2026-11-18",
+     "open": 0.0,
+     "low": 207.1,
+     "close": 207.99,
+     "result": "green"
+    }
+   },
    "pending": false
   }
  },
