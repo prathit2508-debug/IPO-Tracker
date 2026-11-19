@@ -1,39 +1,5 @@
 {
  "stocks": {
-  "ACEVECTOR": {
-   "name": "AceVector Limited",
-   "listing_date": "2026-10-05",
-   "isin": "INE580P01029",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-05",
-     "open": 28.32,
-     "low": 23.37,
-     "close": 26.08,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "GERMAN": {
-   "name": "German Green Steel and Power Limited",
-   "listing_date": "2026-10-05",
-   "isin": "INE0D4501011",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-05",
-     "open": 142.0,
-     "low": 125.5,
-     "close": 128.33,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
   "NITYAS": {
    "name": "Nityas Gems and Jewellery Limited",
    "listing_date": "2026-10-08",
@@ -61,40 +27,6 @@
      "low": 75.81,
      "close": 75.81,
      "result": "breached"
-    }
-   },
-   "pending": false
-  },
-  "ORIENTCABL": {
-   "name": "Orient Cables (India) Limited",
-   "listing_date": "2026-10-05",
-   "isin": "INE0J1N01028",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-05",
-     "open": 450.0,
-     "low": 405.0,
-     "close": 405.0,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
-  "RUNWALENTR": {
-   "name": "Runwal Enterprises Limited",
-   "listing_date": "2026-10-05",
-   "isin": "INE804W01029",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-05",
-     "open": 305.0,
-     "low": 281.2,
-     "close": 301.45,
-     "result": "red"
     }
    },
    "pending": false
@@ -656,8 +588,8 @@
    "name": "J.K.Shah Commerce Education Limited",
    "listing_date": "2026-11-18",
    "isin": "INE2OD001016",
-   "status": "tracking",
-   "reason": "",
+   "status": "stopped",
+   "reason": "Day 1 low breached on Day 2",
    "days": {
     "1": {
      "date": "2026-11-18",
@@ -665,6 +597,13 @@
      "low": 207.1,
      "close": 207.99,
      "result": "green"
+    },
+    "2": {
+     "date": "2026-11-19",
+     "open": 209.89,
+     "low": 197.6,
+     "close": NaN,
+     "result": "breached"
     }
    },
    "pending": false
