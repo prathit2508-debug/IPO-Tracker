@@ -31,54 +31,6 @@
    },
    "pending": false
   },
-  "SHAHINVEST": {
-   "name": "Shah Investor's Home Limited",
-   "listing_date": "2026-10-06",
-   "isin": "INE029N01014",
-   "status": "stopped",
-   "reason": "Day 1 low breached on Day 2",
-   "days": {
-    "1": {
-     "date": "2026-10-06",
-     "open": 171.0,
-     "low": 171.0,
-     "close": 173.79,
-     "result": "green"
-    },
-    "2": {
-     "date": "2026-10-07",
-     "open": 167.05,
-     "low": 165.11,
-     "close": 166.82,
-     "result": "breached"
-    }
-   },
-   "pending": false
-  },
-  "SRIT": {
-   "name": "SRIT India Limited",
-   "listing_date": "2026-10-06",
-   "isin": "INE307K01028",
-   "status": "stopped",
-   "reason": "Day 1 low breached on Day 2",
-   "days": {
-    "1": {
-     "date": "2026-10-06",
-     "open": 148.0,
-     "low": 148.0,
-     "close": 155.09,
-     "result": "green"
-    },
-    "2": {
-     "date": "2026-10-07",
-     "open": 153.0,
-     "low": 147.34,
-     "close": 147.34,
-     "result": "breached"
-    }
-   },
-   "pending": false
-  },
   "VNL": {
    "name": "Vishal Nirmiti Limited",
    "listing_date": "2026-10-08",

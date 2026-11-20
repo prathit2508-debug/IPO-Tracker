@@ -1,13 +1,7 @@
 {
- "updated": "2026-11-20T03:52+05:30",
+ "updated": "2026-11-21T00:32+05:30",
  "sme_registry": "ok",
  "excluded": {
-  "BAHETI": {
-   "name": "Baheti Recycling Industries Limited",
-   "listing_date": "2026-11-06",
-   "isin": "INE029Q01017",
-   "reason": "Was listed on the SME board earlier (SME upgrade)"
-  },
   "ESFL": {
    "name": "Essen Speciality Films Limited",
    "listing_date": "2026-11-13",
