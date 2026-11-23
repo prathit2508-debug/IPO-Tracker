@@ -1,53 +1,5 @@
 {
  "stocks": {
-  "NITYAS": {
-   "name": "Nityas Gems and Jewellery Limited",
-   "listing_date": "2026-10-08",
-   "isin": "INE211501023",
-   "status": "stopped",
-   "reason": "Day 1 low breached on Day 3",
-   "days": {
-    "1": {
-     "date": "2026-10-08",
-     "open": 80.0,
-     "low": 77.0,
-     "close": 83.99,
-     "result": "green"
-    },
-    "2": {
-     "date": "2026-10-09",
-     "open": 81.0,
-     "low": 79.8,
-     "close": 79.8,
-     "result": "held"
-    },
-    "3": {
-     "date": "2026-10-12",
-     "open": 76.0,
-     "low": 75.81,
-     "close": 75.81,
-     "result": "breached"
-    }
-   },
-   "pending": false
-  },
-  "VNL": {
-   "name": "Vishal Nirmiti Limited",
-   "listing_date": "2026-10-08",
-   "isin": "INE1O5L01025",
-   "status": "stopped",
-   "reason": "Day 1 closed red",
-   "days": {
-    "1": {
-     "date": "2026-10-08",
-     "open": 215.0,
-     "low": 204.25,
-     "close": 204.25,
-     "result": "red"
-    }
-   },
-   "pending": false
-  },
   "TRIVENIPT": {
    "name": "Triveni Power Transmission Limited",
    "listing_date": "2026-10-12",
