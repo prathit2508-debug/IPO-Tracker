@@ -511,6 +511,15 @@
     }
    },
    "pending": false
+  },
+  "MITSU": {
+   "name": "Mitsu Chem Plast Limited",
+   "listing_date": "2026-11-25",
+   "isin": "INE317V01016",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [

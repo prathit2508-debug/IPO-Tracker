@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:17+05:30",
+ "updated": "2026-11-25T02:34+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ESFL": {
@@ -7,12 +7,6 @@
    "listing_date": "2026-11-13",
    "isin": "INE0ITO01014",
    "reason": "Was listed on the SME board earlier (SME upgrade)"
-  },
-  "MITSU": {
-   "name": "Mitsu Chem Plast Limited",
-   "listing_date": "2026-11-25",
-   "isin": "INE317V01016",
-   "reason": "Listing date is in the future"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
