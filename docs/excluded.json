@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:34+05:30",
+ "updated": "2026-11-25T05:05+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ESFL": {
@@ -8,9 +8,20 @@
    "isin": "INE0ITO01014",
    "reason": "Was listed on the SME board earlier (SME upgrade)"
   },
+  "OLIL": {
+   "name": "Oneclick Logistics India Limited",
+   "listing_date": "2026-11-26",
+   "isin": "INE0OPS01011",
+   "reason": "Listing date is in the future"
+  },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
    "listing_date": "2026-10-14",
+   "reason": "Traded before its listing date (SME upgrade / relisting)"
+  },
+  "BLUECLOUDS": {
+   "name": "Blue Cloud Softech Solutions Limited",
+   "listing_date": "2026-11-25",
    "reason": "Traded before its listing date (SME upgrade / relisting)"
   }
  }

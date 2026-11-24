@@ -583,6 +583,11 @@
    "name": "Lancer Container Lines Limited",
    "listing_date": "2026-10-14",
    "reason": "Traded before its listing date (SME upgrade / relisting)"
+  },
+  "BLUECLOUDS": {
+   "name": "Blue Cloud Softech Solutions Limited",
+   "listing_date": "2026-11-25",
+   "reason": "Traded before its listing date (SME upgrade / relisting)"
   }
  },
  "sme_seen": {
