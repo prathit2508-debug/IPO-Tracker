@@ -520,6 +520,15 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "CRYSTALCP": {
+   "name": "Crystal Crop Protection Limited",
+   "listing_date": "2026-11-26",
+   "isin": "INE101P01016",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [
