@@ -512,6 +512,24 @@
    "reason": "",
    "days": {},
    "pending": true
+  },
+  "HEGRAPHITE": {
+   "name": "HEG Limited",
+   "listing_date": "2026-11-27",
+   "isin": "INE0Y9J01020",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
+  },
+  "MAHACOAL": {
+   "name": "Mahanadi Coalfields Limited",
+   "listing_date": "2026-11-27",
+   "isin": "INE03K401026",
+   "status": "tracking",
+   "reason": "",
+   "days": {},
+   "pending": false
   }
  },
  "notifications": [
