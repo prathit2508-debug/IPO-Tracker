@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:42+05:30",
+ "updated": "2026-11-27T01:34+05:30",
  "sme_registry": "ok",
  "excluded": {
   "ESFL": {
@@ -18,7 +18,7 @@
    "name": "Praxis Home Retail Limited-RE",
    "listing_date": "2026-11-27",
    "isin": "INE546Y20048",
-   "reason": "Listing date is in the future"
+   "reason": "Rights entitlement / partly-paid security"
   },
   "LANCER": {
    "name": "Lancer Container Lines Limited",
