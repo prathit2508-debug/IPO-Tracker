@@ -1,13 +1,7 @@
 {
- "updated": "2026-11-27T04:41+05:30",
+ "updated": "2026-11-28T01:22+05:30",
  "sme_registry": "ok",
  "excluded": {
-  "ESFL": {
-   "name": "Essen Speciality Films Limited",
-   "listing_date": "2026-11-13",
-   "isin": "INE0ITO01014",
-   "reason": "Was listed on the SME board earlier (SME upgrade)"
-  },
   "OLIL": {
    "name": "Oneclick Logistics India Limited",
    "listing_date": "2026-11-26",
